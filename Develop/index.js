@@ -46,7 +46,7 @@ inquirer
     {
       type: "input",
       message: "Please provide the GitHub username(s) for the contributors.",
-      name: "contributingGitHub",
+      name: "contributingGitHubUserName",
     },
     {
       type: "list",
@@ -100,7 +100,7 @@ inquirer
 
 ### Table of Contents
 
-* Installation Instructions
+* [Installation Instructions](##Installation Instructions)
 * Usage Information
 * Contributors
 * Test Instructions
@@ -118,7 +118,7 @@ inquirer
 * ${response.contributionGuidelines}
 
 * Special thanks to the following contributors: 
-* ${response.contributor} / https://github.com/${response.githubContributor},
+* ${response.contributor} / https://github.com/${response.contributingGitHubUserName},
 
 ## Testing Information
 
