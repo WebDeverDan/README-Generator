@@ -9,7 +9,7 @@
 
 ### Table of Contents
 
-* [Installation Instructions](##Installation Instructions)
+* [Installation Instructions](#Installation-Instructions)
 * Usage Information
 * Contributors
 * Test Instructions
