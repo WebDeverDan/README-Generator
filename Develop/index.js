@@ -42,11 +42,6 @@ inquirer
       message: "Please provide who contributed to this application.",
       name: "contributor",
     },
-    {
-      type: "input",
-      message: "Please provide their GitHub url.",
-      name: "githubContributor",
-    },
 
     {
       type: "input",

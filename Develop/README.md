@@ -5,7 +5,7 @@
 
 ## Description
 
-* This application is free-to-use, and relies on users submitting descriptions and photos of skate spots that they have found within their cities. It features an integration with google maps, can host photos and videos, and even allows for users to create a profile and earn stars based on how many spots they have uploaded. 
+* This application is free-to-use, and relies on users submitting descriptions and photos of skate spots that they have found within their cities. It features an integration with google maps, can host photos and videos, and even allows for users to create a profile and earn stars based on how many spots they have uploaded.
 
 ### Table of Contents
 
@@ -24,10 +24,10 @@
 
 ## Contribution Guidelines and Contributors
 
-* New users must register with the site and create a profile photo. Their profiles will have basic information about them and their method of skating (skateboard or rollerblade). 
+* New users must register with the site and create a profile photo. Their profiles will have basic information about them and their method of skating (skateboard or rollerblade).
 
 * Special thanks to the following contributors: 
-* Daniel Bradley / https://github.com/https: www.github.com/DanielBradley,
+* Daniel Bradley / https://github.com/undefined,
 
 ## Testing Information
 
@@ -39,7 +39,7 @@
 
 ## Acknowledgments
 
-*This uses Google Maps API for mapping. 
+*This application uses Google Maps API.
 
 ## Questions
 * If you have any questions regarding the application, please reach out to Daniel Bradley (the creator), at their GitHub profile located here: https://github.com/WebDeverDan, or via email at danielbvideo@gmail.com.
