@@ -100,27 +100,27 @@ inquirer
 
 ### Table of Contents
 
-* [Installation Instructions](##Installation Instructions)
-* Usage Information
-* Contributors
-* Test Instructions
+* [Installation Instructions](#Installation-Instructions)
+* [Usage](#Usage)
+* [Contributing](#Contributing)
+* [Tests](#Tests)
 
 ## Installation Instructions
 
 * ${response.installation}
 
-## Usage Information
+## Usage
 
 * ${response.usage}
 
-## Contribution Guidelines and Contributors
+## Contributing
 
 * ${response.contributionGuidelines}
 
-* Special thanks to the following contributors: 
+* **Special thanks to the following contributors:** 
 * ${response.contributor} / https://github.com/${response.contributingGitHubUserName},
 
-## Testing Information
+## Tests
 
 * ${response.testing}
 
@@ -133,7 +133,7 @@ inquirer
 *${response.acknowledgements}
 
 ## Questions
-* If you have any questions regarding the application, please reach out to ${response.fullname} (the creator), at their GitHub profile located here: https://github.com/${response.github}, or via email at ${response.email}.`;
+* If you have any questions regarding the application, please reach out to **${response.fullname}** (the creator), at their GitHub profile located here: **https://github.com/${response.github}**, or via email at **${response.email}**.`;
 
 
 // if () {
