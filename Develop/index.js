@@ -130,7 +130,7 @@ inquirer
 
 ## Acknowledgments
 
-*${response.acknowledgements}
+* ${response.acknowledgements}
 
 ## Questions
 * If you have any questions regarding the application, please reach out to **${response.fullname}** (the creator), at their GitHub profile located here: **https://github.com/${response.github}**, or via email at **${response.email}**.`;

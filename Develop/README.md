@@ -5,7 +5,7 @@
 
 ## Description
 
-* his application is free-to-use, and relies on users submitting descriptions and photos of skate spots that they have found within their cities. It features an integration with google maps, can host photos and videos, and even allows for users to create a profile and earn stars based on how many spots they have uploaded.
+* This application is free-to-use, and relies on users submitting descriptions and photos of skate spots that they have found within their cities. It features an integration with google maps, can host photos and videos, and even allows for users to create a profile and earn stars based on how many spots they have uploaded.
 
 ### Table of Contents
 
@@ -20,7 +20,7 @@
 
 ## Usage
 
-* This is available for anybody with an internet connection. All content will be approved upon submission in order to control profane text, images, or other content. Once content is approved, it will be live on the site and will be available for update by the users (i.e. if a skate spot is destroyed, policed, etc.)
+* This is available for anybody with an internet connection. All content will be approved upon submission in order to control profane text, images, or other content. Once content is approved, it will be live on the site and will be available for update by the users (i.e. if a skate spot is destroyed, policed, etc.).
 
 ## Contributing
 
@@ -39,7 +39,7 @@
 
 ## Acknowledgments
 
-*This uses the Google Maps API
+* This uses the Google Maps API.
 
 ## Questions
 * If you have any questions regarding the application, please reach out to **Daniel Bradley** (the creator), at their GitHub profile located here: **https://github.com/WebDeverDan**, or via email at **danielbvideo@gmail.com**.
