@@ -1,4 +1,7 @@
-# asdf
+
+
+![LicenseType](https://img.shields.io/badge/License%3A%20-Public%20Domain-green)
+# pooptime
 
 ## Description
 
@@ -17,7 +20,7 @@
 
 ## Usage Information
 
-* asd
+* asdf
 
 ## Contribution Guidelines and Contributors
 
@@ -32,11 +35,11 @@
 
 ## License
 
-* This application is licensed under the Copyleft License.
+* This application is licensed under the Public Domain license type.
 
 ## Acknowledgments
 
-*asdf
+*adf
 
 ## Questions
-* If you have any questions regarding the application, please reach out to asdf (the creator), at their GitHub profile located here: https://github.com/asdf, or via email at asfd.
+* If you have any questions regarding the application, please reach out to asdf (the creator), at their GitHub profile located here: https://github.com/asdf, or via email at asdf.
