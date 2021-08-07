@@ -1,6 +1,6 @@
 module.exports=[{
     type: "input",
-    message: "What the application title?",
+    message: "What is the application title?",
     name: "title",
   },
   {
