@@ -1,160 +1,22 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
-
+const generateMarkdown = require("./utils/generateMarkdown");
+const questions = require("./data/questions");
 // TODO: Create an array of questions for user input
-// const questions = [];
-inquirer
-  .prompt([
-    {
-      type: "input",
-      message: "What the application title?",
-      name: "title",
-    },
-    {
-      type: "input",
-      message: "Please provide a short description of the application.",
-      name: "description",
-    },
-    {
-      type: "input",
-      message: "Please provide installation instructions for the application.",
-      name: "installation",
-    },
-    {
-      type: "input",
-      message: "Please provide usage information for the application.",
-      name: "usage",
-    },
-    {
-      type: "input",
-      message: "Please provide any testing information for this application.",
-      name: "testing",
-    },
-    {
-      type: "input",
-      message:
-        "Please provide any contribution guidelines for this application.",
-      name: "contributionGuidelines",
-    },
-    {
-      type: "input",
-      message: "Please provide who contributed to this application.",
-      name: "contributor",
-    },
 
-    {
-      type: "input",
-      message: "Please provide the GitHub username(s) for the contributors.",
-      name: "contributingGitHubUserName",
-    },
-    {
-      type: "list",
-      message: "What type of license does this application have?",
-      name: "license",
-      choices: [
-        "Public Domain",
-        "Permissive",
-        "LGPL",
-        "Copyleft",
-        "Proprietary",
-      ],
-    },
-    {
-      type: "input",
-      message: "Please list any acknowledgements that this application has.",
-      name: "acknowledgements",
-    },
-    {
-      type: "input",
-      message: "What is your full name?",
-      name: "fullname",
-    },
-    {
-      type: "input",
-      message: "What is your GitHub username?",
-      name: "github",
-    },
-    {
-      type: "input",
-      message: "What is your email address?",
-      name: "email",
-    },
-  ])
+inquirer.prompt(questions).then((response) => {
+  console.log(response);
+  // template literal for readme file and responses from inquirer
+  const readmeFile = generateMarkdown(response);
 
-  .then((response) => {
-    console.log(response);
-    const publicDomain = "https://img.shields.io/badge/License%3A%20-Public%20Domain-green"
-    // const Permissive = https://img.shields.io/badge/License%3A%20-Permissive-green
-    // const LGPL = https://img.shields.io/badge/License%3A%20-LGPL-green
-    // const Copyleft= https://img.shields.io/badge/License%3A%20-Copyleft-green
-    // const Proprietary = https://img.shields.io/badge/License%3A%20-Proprietary-green
-    const readmeFile = `
+  // TODO: Create a function to write README file
+  // writeFileSync makes this a synchronous function
+  fs.writeFileSync("README.md", readmeFile);
 
-![LicenseType](https://img.shields.io/badge/License%3A%20-Public%20Domain-green)
-# ${response.title}
+  // TODO: Create a function to initialize app
+  function init() {}
 
-## Description
-
-* ${response.description}
-
-### Table of Contents
-
-* [Installation Instructions](#Installation-Instructions)
-* [Usage](#Usage)
-* [Contributing](#Contributing)
-* [Tests](#Tests)
-
-## Installation Instructions
-
-* ${response.installation}
-
-## Usage
-
-* ${response.usage}
-
-## Contributing
-
-* ${response.contributionGuidelines}
-
-* **Special thanks to the following contributors:** 
-* ${response.contributor} / https://github.com/${response.contributingGitHubUserName},
-
-## Tests
-
-* ${response.testing}
-
-## License
-
-* This application is licensed under the ${response.license} license type.
-
-## Acknowledgments
-
-* ${response.acknowledgements}
-
-## Questions
-* If you have any questions regarding the application, please reach out to **${response.fullname}** (the creator), at their GitHub profile located here: **https://github.com/${response.github}**, or via email at **${response.email}**.`;
-
-
-// if () {
-
-// } else if ()
-                
-//  });              
-
-
-
-
-
-
-    // TODO: Create a function to write README file
-    fs.writeFile("README.md", readmeFile, function (err) {
-      if (err) console.log(error);
-    });
-
-    // TODO: Create a function to initialize app
-    function init() {}
-
-    // Function call to initialize app
-    init();
-  });
+  // Function call to initialize app
+  init();
+});
