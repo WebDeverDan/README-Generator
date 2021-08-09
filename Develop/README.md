@@ -5,7 +5,7 @@
   
   ## Description
   
-  * This application is a simple tracking and reminder application for logging and maintaining your houseplants. 
+  * This application is a simple tracking and reminder application for logging and maintaining your houseplants.
   
   ## Table of Contents
   
@@ -23,14 +23,14 @@
   
   ## Usage
   
-  * Anybody can use this application. As of current, the application is only available on the internet. It will be available as a mobile application in the coming months. 
+  * Anybody can use this application. As of current, the application is only available on the internet. It will be available as a mobile application in the coming months.
   
   ## Contributing
   
   * Currently, there are no user contributions available.
   
   * **Special thanks to the following contributors:** 
-  * Emily Bradley / **https://github.com/WebDeverDan**,
+  * Daniel Bradley / **https://github.com/WebDeverDan**,
   
   ## Tests
   
