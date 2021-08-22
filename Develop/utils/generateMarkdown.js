@@ -15,8 +15,8 @@ function generateMarkdown(response) {
   let license = ""
 
   switch (response.license){
-    case "Public Domain":
-      license="https://img.shields.io/badge/License%3A%20-Public%20Domain-green"
+    case "MIT":
+      license="https://img.shields.io/badge/License%3A%20-MIT-green"
     break
     case "Permissive":
       license="https://img.shields.io/badge/License%3A%20-Permissive-green"
