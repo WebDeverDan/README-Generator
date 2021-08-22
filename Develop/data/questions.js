@@ -45,7 +45,7 @@ module.exports=[{
     message: "What type of license does this application have?",
     name: "license",
     choices: [
-      "Public Domain",
+      "MIT",
       "Permissive",
       "LGPL",
       "Copyleft",
